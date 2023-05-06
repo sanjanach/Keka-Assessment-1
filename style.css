@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    background-color: rgb(246, 247, 250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.side-nav{
+    float: left;
+    background-color: rgb(14, 26, 53);
+    width: 255px;
+    height: 900px;
+    position: sticky;
+}
+
+.side-list{
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-list-item{
+    padding: 25px 0px 32px 40px;
+
+}
+
+.side-list-item a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.side-list-item:hover{
+    background-color: rgb(18, 33, 67);
+    border-left: 4px solid rgb(85, 132, 255);
+}
+
+.technovertLogo{
+    height: 50px;
+    width: 179px;
+    padding-left:30px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.page-header{
+    background-color: rgb(255,255,255);
+}
+
+.header-list{
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    height: 96px;
+}
+
+.header-list-item{
+    padding-top: 32px;
+    padding-left: 23px;
+    font-size: 25px;
+}
+
+.header-list{
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(212, 217, 227);
+}
+
+
+.project-btn{
+    background-color: rgb(85, 132, 255);
+    border-radius: 20px;
+    margin-left: 860px;
+    color: white;
+    height: 40px;
+    border-color: white;
+}
+
+.avtar-img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.page-nav{
+    background-color: rgb(245, 245, 245);
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 82px;
+    list-style-type: none;
+    gap: 60px;
+    border-bottom: 1.5px solid rgb(230, 230, 230);
+}
+
+.nav-list-item{
+    padding-top: 49px;
+}
+
+.nav-list-item a {
+    color: rgb(42, 100, 150);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.main-page{
+   
+}
+
+.left-section{
+    float: left;
+    height: 650px;
+    background-color: white;
+    margin-top: 34px;
+    margin-left: 37px;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 10px;
+}
+
+.left-section-title, .right-section-title{
+    background-color: rgb(247, 247, 247);
+    margin-top: 18px;
+    height: 36px;
+    padding-left: 40px;
+    padding: auto;
+    padding-top: 20px;
+    
+    text-transform: uppercase;
+    color: rgb(46, 150, 219);
+    font-size: 17px;
+    margin: 0;
+
+}
+
+.left-section-title{
+    width: 857px;
+    border-bottom:1px solid rgb(221, 221, 221);
+}
+
+.left-section-title::after{
+    border-left: 1px solid rgb(221, 221, 221);
+}
+
+.left-section-form{
+    background-color: white;
+}
+
+.page-menu, .form-list, .form-label, .right-section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0px;
+
+}
+
+.menu-list{
+    margin-top: 49px;
+    list-style-type: none;
+
+}
+
+.menu-list a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.list-item-num, .list-item-info{
+   font-size: 13px;
+   color: rgb(68, 68, 68);
+   font-weight: 600;
+   margin-left: 170px;
+}
+
+.list-item-num{
+    padding: 10px 13px;
+    background-color: rgb(46, 150, 219);
+    color: white;
+    border-radius: 45px;
+}
+
+.list-item-info{
+
+    padding-top: 23px;
+}
+
+.form-list{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.form-list-item{
+    color: rgb(165, 168, 173);
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size:10px;
+}
+
+.form-list-item:first-child::before{
+    content: '*';
+    color: red;
+}
+
+.page-form{
+    padding-top: 15px;
+    border-spacing: 70px 10px;
+}
+
+.form-input{
+    width: 320px;
+}
+
+.input{
+    width: 292px;
+    border: 1px solid rgb(136, 136, 136);
+    height: 28px;
+    border-radius: 4px;
+}
+
+.form-label{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(136, 136, 136);
+    font-weight: 600;
+}
+
+.submit-btn{
+    color: white;
+    background-color: rgb(66, 139, 202);
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 80px;
+    float: right;
+    border-color: white;
+    padding: 6px 7px;
+}
+
+.right-section{
+    border: 1px solid rgb(234, 234, 234);
+    display: flex;
+    background-color: white;
+    height: 282px;
+    flex-direction: column;
+    
+    float: right;
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-right: 37px;
+}
+
+.right-section-title{
+    padding-left: 20px;
+    width: 250px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 18px;
+    margin: 0;
+    height: 36px;
+}
+
+.right-section-info{
+    white-space: pre-line;
+    width: 250px;
+    height: 36px;
+    padding-left: 20px;
+    background-color: white;
+    color: rgb(68, 68, 68);
+}
+
+.progress-bar{
+
+    padding-bottom: 30px;
+}
+
+.progress-info{
+    margin-top: 10px;
+    color: rgb(68,68,68);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+.left-middle-section, .left-bottom-section{
+    float: left;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(247, 247, 247);
+}
